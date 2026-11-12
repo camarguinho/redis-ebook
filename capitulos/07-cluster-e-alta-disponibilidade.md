@@ -40,3 +40,7 @@ Exemplo de configuração:
 Jedis jedis = new Jedis("127.0.0.1", 6379); // Mestre
 jedis.slaveof("127.0.0.1", 6380); // Configura o escravo
 ```
+
+---
+
+[Capítulo anterior: Redis com Java](06-redis-com-java.md) | [Próximo capítulo: Segurança](08-seguranca.md)
